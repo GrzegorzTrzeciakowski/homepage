@@ -4,7 +4,7 @@ A simple website project created as part of learning HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can view the live version of the website [here](https://github.com/GrzegorzTrzeciakowski/homepage.git).
+You can view the live version of the website [here](https://grzegorztrzeciakowski.github.io/homepage/).
 
 ## Description
 
