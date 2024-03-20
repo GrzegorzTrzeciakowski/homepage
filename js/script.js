@@ -1,8 +1,19 @@
-console.log("Hello");
-const button = document.querySelector(".js-button");
-const header = document.querySelector(".header");
+{
+    function welcome() {
+    console.log("Hello");
+}
 
-button.addEventListener("click", () => {
-    header.classList.toggle("invisible");
-    button.innerText = header.classList.contains("invisible") ? "Pokaż nagłówek" : "Usuń nagłóek";
-});
+welcome();
+
+function toggleHeader() {
+    const button = document.querySelector(".js-button");
+    const header = document.querySelector(".header");
+
+    button.addEventListener("click", () => {
+        header.classList.toggle("invisible");
+        button.innerText = header.classList.contains("invisible") ? "Pokaż nagłówek" : "Usuń nagłówek";
+    });
+}
+
+toggleHeader();
+}
